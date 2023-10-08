@@ -6,5 +6,8 @@
 		"ourWork": "Naši radovi",
 		"contact": "Kontakt"
 	},
-	"word": "zdravo"
+	"header": {
+		"heading": "Izrađujemo nameštaj po meri, vašoj želji i ideji.",
+		"subheading": "Veliki ili mali, možemo dizajnirati od nule, obnoviti ili jednostavno nadograditi."
+	}
 }

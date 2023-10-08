@@ -6,5 +6,8 @@
 		"ourWork": "Our work",
 		"contact": "Contact"
 	},
-	"word": "hello"
+	"header": {
+		"heading": "We make wood custom furniture, based on your wish and idea.",
+		"subheading": "Big or small, we can design from scratch, refubrish or simply upgrade."
+	}
 }
