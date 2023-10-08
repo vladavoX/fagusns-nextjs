@@ -1,3 +1,10 @@
 {
+	"navbar": {
+		"home": "Home",
+		"about": "About",
+		"whatWeDo": "What we do",
+		"ourWork": "Our work",
+		"contact": "Contact"
+	},
 	"word": "hello"
 }

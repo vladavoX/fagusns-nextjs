@@ -1,3 +1,10 @@
 {
+	"navbar": {
+		"home": "Почетна",
+		"about": "О нас",
+		"whatWeDo": "Что мы делаем",
+		"ourWork": "Наша работа",
+		"contact": "Контакт"
+	},
 	"word": "zdrastvuje"
 }
