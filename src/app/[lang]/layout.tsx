@@ -5,6 +5,7 @@ import './globals.css'
 import { Locale, i18n } from '@/i18n-config'
 import { getDictionary } from '@/get-dictionary'
 import Navbar from './layout/Navbar'
+import Footer from './layout/Footer'
 
 export async function generateStaticParams() {
 	return i18n.locales.map(locale => ({ lang: locale }))
@@ -113,6 +114,7 @@ export default async function RootLayout({
 			<body className={inter.className}>
 				<Navbar dict={dict} />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	)

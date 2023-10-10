@@ -57,6 +57,7 @@ const OurWork = ({
 				<li>
 					<div className='relative w-full h-96 mb-4'>
 						<Image
+							priority
 							className='object-cover rounded-lg'
 							src='/our-work/project-3.jpg'
 							alt=''

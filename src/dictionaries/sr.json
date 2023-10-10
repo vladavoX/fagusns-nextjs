@@ -33,5 +33,9 @@
 		"closetDesc": "Ormar je jednostavan, lak za korišćenje i lep način da organizujete svoju odeću. To je odličan način da vodite evidenciju o svojoj odeći i da nikada ne zaboravite šta imate.",
 		"livingRoom": "Dnevna soba",
 		"livingRoomDesc": "Dnevni boravak je prostorija u stambenoj kući ili stanu u kojoj ljudi mogu da sede, opuste i druže. Dekor i dizajn dnevne sobe mogu se uveliko razlikovati, ali to je obično prostor koji odražava lični stil ljudi koji žive u kući."
+	},
+	"contact": {
+		"heading": "Kontaktirajte nas",
+		"subheading": "Obratite nam se danas i započnite projekat nameštaja iz snova."
 	}
 }

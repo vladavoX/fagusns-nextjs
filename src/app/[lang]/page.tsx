@@ -4,6 +4,7 @@ import Header from './components/Header'
 import About from './components/About'
 import WhatWeDo from './components/WhatWeDo'
 import OurWork from './components/OurWork'
+import Contact from './components/Contact'
 
 export default async function Home({ params: { lang } }: { params: { lang: Locale } }) {
 	const dict = await getDictionary(lang)
@@ -14,6 +15,7 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
 			<About dict={dict.about} />
 			<WhatWeDo dict={dict.whatWeDo} />
 			<OurWork dict={dict.ourWork} />
+			<Contact dict={dict.contact} />
 		</main>
 	)
 }

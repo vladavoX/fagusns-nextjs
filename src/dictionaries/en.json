@@ -33,5 +33,9 @@
 		"closetDesc": "Closet is a simple, easy to use, and beautiful way to organize your clothes. It's a great way to keep track of your clothes and make sure you never forget what you have.",
 		"livingRoom": "Living room",
 		"livingRoomDesc": "A living room is a room in a residential house or apartment where people can sit, relax, and socialize. The decor and design of a living room can vary widely, but it is typically a space that reflects the personal style of the people who live in the home."
+	},
+	"contact": {
+		"heading": "Contact us",
+		"subheading": "Reach out to us today and get started on your dream furniture project."
 	}
 }
