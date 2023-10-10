@@ -1,4 +1,8 @@
-const Contact = ({ dict }: { dict: { heading: string; subheading: string } }) => {
+const Contact = ({
+	dict
+}: {
+	dict: { heading: string; subheading: string; user_one: string; user_two: string; email: string }
+}) => {
 	return (
 		<section
 			id='contact'
@@ -10,13 +14,13 @@ const Contact = ({ dict }: { dict: { heading: string; subheading: string } }) =>
 			</div>
 			<div className='text-gray-600 text-sm sm:text-base lg:text-lg sm:flex justify-evenly'>
 				<p className='flex sm:flex-col items-center justify-between'>
-					<span className='text-gray-900 font-medium'>Momcilo Popadic</span> +381 65 920 75 42
+					<span className='text-gray-900 font-medium'>{dict.user_one}</span> +381 65 920 75 42
 				</p>
 				<p className='flex sm:flex-col items-center justify-between'>
-					<span className='text-gray-900 font-medium'>Darko Popadic</span> +381 64 221 64 25
+					<span className='text-gray-900 font-medium'>{dict.user_two}</span> +381 64 221 64 25
 				</p>
 				<p className='flex sm:flex-col items-center justify-between'>
-					<span className='text-gray-900 font-medium'>Email</span> fagusns021@gmail.com
+					<span className='text-gray-900 font-medium'>{dict.email}</span> fagusns021@gmail.com
 				</p>
 			</div>
 		</section>

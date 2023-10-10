@@ -36,6 +36,9 @@
 	},
 	"contact": {
 		"heading": "Kontaktirajte nas",
-		"subheading": "Obratite nam se danas i započnite projekat nameštaja iz snova."
+		"subheading": "Obratite nam se danas i započnite projekat nameštaja iz snova.",
+		"user_one": "Momčilo Popadić",
+		"user_two": "Darko Popadić",
+		"email": "E-mail"
 	}
 }

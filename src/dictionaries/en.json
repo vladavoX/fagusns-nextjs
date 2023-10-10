@@ -36,6 +36,9 @@
 	},
 	"contact": {
 		"heading": "Contact us",
-		"subheading": "Reach out to us today and get started on your dream furniture project."
+		"subheading": "Reach out to us today and get started on your dream furniture project.",
+		"user_one": "Momcilo Popadic",
+		"user_two": "Darko Popadic",
+		"email": "Email"
 	}
 }
