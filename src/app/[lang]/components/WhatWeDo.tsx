@@ -14,9 +14,12 @@ const WhatWeDo = ({ dict }: { dict: any }) => {
 	return (
 		<section
 			id='what-we-do'
-			className='min-h-screen w-full p-6 sm:p-12 lg:p-24 bg-gray-100 space-y-4 sm:space-y-6 lg:space-y-8'
+			className='min-h-screen w-full p-6 sm:p-12 lg:p-24 bg-gray-100 space-y-4 sm:space-y-6 lg:space-y-8 flex flex-col justify-center'
 		>
-			<h2 className='text-2xl font-semibold tracking-tight text-black sm:text-3xl lg:text-5xl'>{dict.heading}</h2>
+			<div>
+				<h2 className='text-2xl font-semibold tracking-tight text-black sm:text-3xl lg:text-5xl'>{dict.heading}</h2>
+				<h3 className='text-base sm:text-lg lg:text-2xl text-gray-700'>{dict.subheading}</h3>
+			</div>
 			<ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-4'>
 				{links.map(link => (
 					<Link

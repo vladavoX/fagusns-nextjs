@@ -16,11 +16,22 @@
 	},
 	"whatWeDo": {
 		"heading": "Šta radimo",
+		"subheading": "Izrada nameštaja po meri za svaku prostoriju u vašem domu ili kancelariji.",
 		"Kitchen": "Kuhinja",
 		"Bedroom": "Spavaća soba",
 		"Bathroom": "Kupatilo",
 		"Closet": "Plakar",
 		"Living Room": "Dnevna soba",
 		"Office": "Kancelarija"
+	},
+	"ourWork": {
+		"heading": "Naši poslednji radovi",
+		"subheading": "Istražite naša nedavna remek-dela i vidite šta možemo da uradimo za vas.",
+		"kitchen": "Kuhinja",
+		"kitchenDesc": "Kuhinja je prostorija ili prostor u kući ili drugom stanu gde se priprema i kuva hrana. Obično je opremljen nizom uređaja i alata koji pomažu u pripremi hrane, kao što su rerna, ploča za kuvanje, frižider i sudoper.",
+		"closet": "Ormar za garderobu",
+		"closetDesc": "Ormar je jednostavan, lak za korišćenje i lep način da organizujete svoju odeću. To je odličan način da vodite evidenciju o svojoj odeći i da nikada ne zaboravite šta imate.",
+		"livingRoom": "Dnevna soba",
+		"livingRoomDesc": "Dnevni boravak je prostorija u stambenoj kući ili stanu u kojoj ljudi mogu da sede, opuste i druže. Dekor i dizajn dnevne sobe mogu se uveliko razlikovati, ali to je obično prostor koji odražava lični stil ljudi koji žive u kući."
 	}
 }

@@ -16,11 +16,22 @@
 	},
 	"whatWeDo": {
 		"heading": "What we do",
+		"subheading": "Crafting custom furniture for every room in your home or office.",
 		"Kitchen": "Kitchen",
 		"Bedroom": "Bedroom",
 		"Bathroom": "Bathroom",
 		"Closet": "Closet",
 		"Living Room": "Living Room",
 		"Office": "Office"
+	},
+	"ourWork": {
+		"heading": "Our recent work",
+		"subheading": "Explore our recent masterpieces and see what we can do for you.",
+		"kitchen": "Kitchen",
+		"kitchenDesc": "A kitchen is a room or area in a house or other dwelling where food is prepared and cooked. It is typically equipped with a range of appliances and tools to help with food preparation, such as an oven, stovetop, refrigerator, and sink.",
+		"closet": "Closet",
+		"closetDesc": "Closet is a simple, easy to use, and beautiful way to organize your clothes. It's a great way to keep track of your clothes and make sure you never forget what you have.",
+		"livingRoom": "Living room",
+		"livingRoomDesc": "A living room is a room in a residential house or apartment where people can sit, relax, and socialize. The decor and design of a living room can vary widely, but it is typically a space that reflects the personal style of the people who live in the home."
 	}
 }
