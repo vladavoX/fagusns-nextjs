@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react'
 
 import './globals.css'
 import { Locale, i18n } from '@/i18n-config'
@@ -115,6 +116,7 @@ export default async function RootLayout({
 				<Navbar dict={dict} />
 				{children}
 				<Footer />
+				<Analytics />
 			</body>
 		</html>
 	)
