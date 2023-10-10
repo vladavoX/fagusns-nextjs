@@ -11,7 +11,9 @@ const MobileNav = ({ dict }: { dict: { navbar: any } }) => {
 	const [showLinks, setShowLinks] = useState<boolean>(false)
 
 	return (
-		<nav className={`bg-gray-800 flex flex-col sm:hidden fixed w-full py-6 px-6 ${showLinks ? 'h-screen' : 'h-auto'}`}>
+		<nav
+			className={`z-50 bg-gray-800 flex flex-col sm:hidden fixed w-full py-6 px-6 ${showLinks ? 'h-screen' : 'h-auto'}`}
+		>
 			<div className='flex items-center justify-between'>
 				<Link
 					href='/'

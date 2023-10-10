@@ -6,7 +6,7 @@ import { links } from '../../utils'
 
 const DesktopNav = ({ dict }: { dict: { navbar: any } }) => {
 	return (
-		<nav className='hidden sm:flex fixed w-full bg-gray-800 items-center justify-between py-6 sm:px-6 lg:px-8'>
+		<nav className='z-50 hidden sm:flex fixed w-full bg-gray-800 items-center justify-between py-6 sm:px-6 lg:px-8'>
 			<Link href='/'>
 				<Image
 					priority={true}
