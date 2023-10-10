@@ -51,6 +51,7 @@ const MobileNav = ({ dict }: { dict: { navbar: any } }) => {
 									<Link
 										className='w-fit flex items-center gap-2 text-gray-300 hover:bg-gray-900 hover:text-white duration-150 rounded-md px-3 py-2'
 										href={link.href}
+										onClick={() => setShowLinks(!showLinks)}
 									>
 										<link.icon className='h-6 w-6' />
 										{dict.navbar[link.link]}
